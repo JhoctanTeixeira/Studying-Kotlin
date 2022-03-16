@@ -7,7 +7,7 @@
     tools:context=".ContaTelefonica">
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/txtAss"
         android:layout_width="370dp"
         android:layout_height="50dp"
         android:layout_marginTop="72dp"
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal" />
+        app:layout_constraintTop_toBottomOf="@+id/txtAss" />
 
     <EditText
         android:id="@+id/editTextNumberDecimal3"

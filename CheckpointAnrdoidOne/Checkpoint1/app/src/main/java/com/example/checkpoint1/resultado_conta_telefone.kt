@@ -12,9 +12,9 @@ class resultado_conta_telefone : AppCompatActivity() {
 
     var intentResultado = Intent( this, resultado_conta_telefone::class.java)
 
-    intentResultado.putExtra("msg", mensagem)
+    intentResultado.putExtra(txtAss)
 
-    startAcrivity(intentResultado)
+    /*startAcrivity(intentResultado)
 
-    lbResultado.text = intent.getStringExtra("msg")
+    idAssinatura.text = intent.getStringExtra("msg")*/
 }

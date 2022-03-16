@@ -9,6 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Checkpoint1">
+
+        <Activity android:name=".resultado_conta_telefone"
+            android:parentActivityName=".MainActivity"/>
+        <Activity android:name=".ContaTelefonica"
+            android:parentActivityName=".MainActivity"/>
+        <Activity android:name=".Calculadora"
+            android:parentActivityName=".MainActivity"/>
+
         <activity
             android:name=".resultado_conta_telefone"
             android:exported="false" />
